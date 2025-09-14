@@ -37,8 +37,13 @@ As a team, we were motivated by the limited access to space data and space-focus
 ---
 ## Presentation
 
-[![Watch the video](https://img.youtube.com/vi/1efJ2o7dDOY/0.jpg)](https://youtu.be/1efJ2o7dDOY)
+<p align="center">
+  <a href="https://youtu.be/1efJ2o7dDOY" target="_blank">
+    <img src="https://img.youtube.com/vi/1efJ2o7dDOY/0.jpg" alt="Watch the video" />
+  </a>
+</p>
 
+ Watch the video
 ---
 
 ## Objectives
