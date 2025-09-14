@@ -2,14 +2,14 @@
 
 ### Navigation
 [Overview](#overview)
-[Contributors](##contributors)
-[Presentation](##presentation)
-[Objectives](##objectives)
-[Data Sources](##data-sources)
-[Methodology](##methodology)
-[Key Findings](##key-findings)
-[Terminology](##terminology)
-[Key Numbers Recap](##key-numbers-recap)
+[Contributors](#contributors)
+[Presentation](#presentation)
+[Objectives](#objectives)
+[Data Sources](#data-sources)
+[Methodology](#methodology)
+[Key Findings](#key-findings)
+[Terminology](#terminology)
+[Key Numbers Recap](#key-numbers-recap)
 
 ## Overview
 This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Space Aware Datathon August 14-September 15, 2025. We conducted an analysis of satellites and debris in Low Earth Orbit (LEO) using data from the Unified Data Library (UDL) Elset, CelesTrak and SatCat. By combining multiple open datasets, we provide a clearer picture of the orbital environment, highlight altitude hotspots, quantify debris risks, and assess the growing role of Starlink satellites.
