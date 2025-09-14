@@ -1,9 +1,22 @@
-# 🛰️Orbital Congestion Report
+# Orbital Congestion Report
 
+### Navigation
+[Overview](##overview)
+[Contributors](##contributors)
+[Presentation](##presentation)
+[Objectives](##objectives)
+[Data Sources](##data-sources)
+[Methodology](##methodology)
+[Key Findings](##key-findings)
+[Terminology](terminology)
+[Key Numbers Recap](##key-numbers-recap)
+
+## 🛰️ Overview
 This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Space Aware Datathon August 14-September 15, 2025. We conducted an analysis of satellites and debris in Low Earth Orbit (LEO) using data from the Unified Data Library (UDL) Elset, CelesTrak and SatCat. By combining multiple open datasets, we provide a clearer picture of the orbital environment, highlight altitude hotspots, quantify debris risks, and assess the growing role of Starlink satellites.
 
+---
 
-## Contributors
+## 👩‍💻 Contributors
 [Veronica Luisana Polk](https://www.linkedin.com/in/veronicaluisanapolk): Data analyst with a background and masters in Agribusiness
 
 [Shruthi Bhaskaran MK](https://www.linkedin.com/in/shruthi-bhaskaran-m-k-4084b1323): Data analyst with years of contribution to the education sector
@@ -11,7 +24,9 @@ This report is the result of a team effort to enhance space situational awarenes
 [Favour "Nimi" Adebayo](https://www.linkedin.com/in/kayeneii):** Data analyst using analytics and allied ML in the defence industry
 
 ---
-Watch presentation https://github.com/kayeneii/OrbitalCongestionReport/blob/main/Orbital%20Congestion%20Report_-_Space%20Aware%20Trio-2025.mp4
+## Presentation
+
+(https://github.com/kayeneii/OrbitalCongestionReport/blob/main/Orbital%20Congestion%20Report_-_Space%20Aware%20Trio-2025.mp4)
 
 ---
 
@@ -33,7 +48,8 @@ These datasets were merged into a unified analysis frame, ensuring active satell
 
 ---
 
-## 🛠️ Methodology & Tools 
+## 🛠️ Methodology
+### Tools
 - Python for analysis and visualization
 - Pandas / NumPy for data cleaning & aggregation
 - Matplotlib / Seaborn for visualizations
@@ -64,8 +80,7 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 
 ---
 
-## Terminology
-
+## 🗝️ Terminology
 ### 1. Orbits & Regions
 
 * **LEO (Low Earth Orbit):** 200–2,000 km; crowded (Starlink, imaging satellites).
@@ -124,7 +139,7 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 
 ---
 
-## Orbital Congestion – Key Numbers Recap
+## 📍 Key Numbers Recap
 
 **All objects:** 30000
 
