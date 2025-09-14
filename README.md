@@ -23,8 +23,6 @@
 This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Space Aware Datathon August 14-September 15, 2025. We conducted an analysis of satellites and debris in Low Earth Orbit (LEO) using data from the Unified Data Library (UDL) Elset, CelesTrak and SatCat. By combining multiple open datasets, we provide a clearer picture of the orbital environment, highlight altitude hotspots, quantify debris risks, and assess the growing role of Starlink satellites.
 
 
-As a team, we were motivated by the limited access to space data and space-focused innovation, especially for women and underrepresented groups.
-
 ---
 
 ## Contributors
@@ -174,4 +172,6 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 
 ---
 
-Thank you for reading our Orbital Congestion Report!❤️ You can connect with any of the contributes on LinkedIn by simply clicking on their names above.
+Thank you for reading our Orbital Congestion Report! ❤️ There is limited access to space data and space-focused innovation, especially for women and underrepresented groups. We hope that this report helps spread awareness of this and improves your understanding of what happens outside our planet Earth.
+
+You can connect with any of the contributors on LinkedIn by simply clicking on their names above.
