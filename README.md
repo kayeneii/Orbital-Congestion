@@ -4,7 +4,9 @@ This report was a team effort to enhance space situational awareness (SSA) using
 
 ## Contributors
 **Veronica Luisana Polk:** Data analyst with a background and masters in Agribusiness
+
 **Shruthi Bhaskaran MK:** Data analyst with years of contribution to the education sector
+
 **Favour "Nimi" Adebayo:** Data analyst using analytics and allied ML in the defence industry
 
 ## Terminology
