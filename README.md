@@ -1,7 +1,7 @@
 # Orbital Congestion Report
 
 ### Navigation
-[Overview](##overview)
+[Overview](#overview)
 [Contributors](##contributors)
 [Presentation](##presentation)
 [Objectives](##objectives)
