@@ -4,11 +4,14 @@ This report is the result of a team effort to enhance space situational awarenes
 
 
 ## Contributors
-**Veronica Luisana Polk:** Data analyst with a background and masters in Agribusiness
+[Veronica Luisana Polk](https://www.linkedin.com/in/veronicaluisanapolk): Data analyst with a background and masters in Agribusiness
 
-**Shruthi Bhaskaran MK:** Data analyst with years of contribution to the education sector
+[Shruthi Bhaskaran MK](https://www.linkedin.com/in/shruthi-bhaskaran-m-k-4084b1323): Data analyst with years of contribution to the education sector
 
-**Favour "Nimi" Adebayo:** Data analyst using analytics and allied ML in the defence industry
+[Favour "Nimi" Adebayo](https://www.linkedin.com/in/kayeneii):** Data analyst using analytics and allied ML in the defence industry
+
+---
+Watch presentation https://github.com/kayeneii/OrbitalCongestionReport/blob/main/Orbital%20Congestion%20Report_-_Space%20Aware%20Trio-2025.mp4
 
 ---
 
@@ -117,3 +120,27 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 * **UDL (Unified Data Library):** Repository of satellite + orbit data.
 * **Conjunction Data Message (CDM):** Standardized warning of possible collision.
 * **Sustainability in Orbit:** Preventing “Kessler Syndrome” (runaway debris collisions)
+
+
+---
+
+## Orbital Congestion – Key Numbers Recap
+
+**All objects:** 30000
+
+**LEO objects:** 27752
+
+**Debris in LEO:** 7371 (26.56%)
+
+**Starlink (all):** 9675
+
+**Starlink in LEO:** 9666 (34.83%)
+
+**Decay-risk in LEO (<300 km perigee):** 180 (0.65%)
+
+**Top 5 LEO altitude hotspots (100-km bins):** 500–600 km : 7188 objects 400–500 km : 5326 objects 700–800 km : 2562 objects 800–900 km : 2500 objects 900–1000 km : 1942 objects
+
+
+---
+
+Thank you for reading our report!❤️
