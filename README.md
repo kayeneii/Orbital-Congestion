@@ -1,6 +1,6 @@
 # 🛰️Orbital Congestion Report
 
-This report was a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Datathon August 14-15, 2025.
+This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Datathon August 14-15, 2025.
 
 ## Contributors
 **Veronica Luisana Polk:** Data analyst with a background and masters in Agribusiness
