@@ -2,13 +2,21 @@
 
 ### Navigation
 [Overview](#overview)
+
 [Contributors](#contributors)
+
 [Presentation](#presentation)
+
 [Objectives](#objectives)
+
 [Data Sources](#data-sources)
+
 [Methodology](#methodology)
+
 [Key Findings](#key-findings)
+
 [Terminology](#terminology)
+
 [Key Numbers Recap](#key-numbers-recap)
 
 ## Overview
@@ -30,7 +38,7 @@ This report is the result of a team effort to enhance space situational awarenes
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Identify altitude ranges and inclination bands with the highest congestion in LEO.
 - Quantify the presence of debris vs active satellites.
 - Compare Starlink vs non-Starlink satellites and their overlap with debris.
@@ -39,7 +47,7 @@ This report is the result of a team effort to enhance space situational awarenes
 
 ---
 
-## 🗂️ Data Sources
+## Data Sources
 * Unified Data Library (UDL) – Elset data (via authenticated API)
 * CelesTrak SatCat – Satellite catalog (OBJECT_TYPE, OWNER, etc.)
 * CelesTrak Starlink TLEs – List of Starlink satellites for tagging
@@ -48,7 +56,7 @@ These datasets were merged into a unified analysis frame, ensuring active satell
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 ### Tools
 - Python for analysis and visualization
 - Pandas / NumPy for data cleaning & aggregation
@@ -65,7 +73,7 @@ These datasets were merged into a unified analysis frame, ensuring active satell
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 **LEO Congestion Hotspots:** Most satellites cluster around ~500–600 km and ~1100–1200 km.
 
 **Debris Load:** 26% of LEO objects are debris, with hotspots overlapping with active payloads.
@@ -80,7 +88,7 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 
 ---
 
-## 🗝️ Terminology
+## Terminology
 ### 1. Orbits & Regions
 
 * **LEO (Low Earth Orbit):** 200–2,000 km; crowded (Starlink, imaging satellites).
@@ -118,7 +126,7 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 * **Orbital Decay:** Gradual lowering of a satellite’s orbit due to drag.
 
 
-### 5. Tools & Libraries
+### 5. Libraries
 
 * **Python:**
 
@@ -126,7 +134,7 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
   * `skyfield` → satellite positions & visualization.
   * `poliastro` → orbital mechanics simulations.
   * `astropy` → astronomy/time utilities.
-* **Visualization:** `matplotlib`, `plotly`, CesiumJS (3D orbits).
+  * `matplotlib`, `plotly`, CesiumJS (3D orbits).
 
 
 ### 6. Space Jargon Made Simple
@@ -139,7 +147,7 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 
 ---
 
-## 📍 Key Numbers Recap
+## Key Numbers Recap
 
 **All objects:** 30000
 
@@ -158,4 +166,4 @@ LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — 
 
 ---
 
-Thank you for reading our report!❤️
+Thank you for reading our Orbital Congestion Report!❤️ You can connect with any of the contributes on LinkedIn by simply clicking on their names above.
