@@ -22,6 +22,9 @@
 ## Overview
 This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Space Aware Datathon August 14-September 15, 2025. We conducted an analysis of satellites and debris in Low Earth Orbit (LEO) using data from the Unified Data Library (UDL) Elset, CelesTrak and SatCat. By combining multiple open datasets, we provide a clearer picture of the orbital environment, highlight altitude hotspots, quantify debris risks, and assess the growing role of Starlink satellites.
 
+
+As a team, we were motivated by the limited access to space data and space-focused innovation, especially for women and underrepresented groups.
+
 ---
 
 ## Contributors
@@ -34,7 +37,7 @@ This report is the result of a team effort to enhance space situational awarenes
 ---
 ## Presentation
 
-(https://github.com/kayeneii/OrbitalCongestionReport/blob/main/Orbital%20Congestion%20Report_-_Space%20Aware%20Trio-2025.mp4)
+![Presentation](https://github.com/kayeneii/OrbitalCongestionReport/blob/main/Orbital%20Congestion%20Report_-_Space%20Aware%20Trio-2025.mp4)
 
 ---
 
