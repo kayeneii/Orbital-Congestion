@@ -1,6 +1,6 @@
 # Orbital Congestion Report
 
-### Navigation
+### Table of Contents
 [Overview](#overview)
 
 [Contributors](#contributors)
@@ -37,7 +37,7 @@ As a team, we were motivated by the limited access to space data and space-focus
 ---
 ## Presentation
 
-![Presentation](https://github.com/kayeneii/OrbitalCongestionReport/blob/main/Orbital%20Congestion%20Report_-_Space%20Aware%20Trio-2025.mp4)
+[![Watch the video](https://img.youtube.com/vi/1efJ2o7dDOY/0.jpg)](https://youtu.be/1efJ2o7dDOY)
 
 ---
 
