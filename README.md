@@ -1,6 +1,7 @@
 # 🛰️Orbital Congestion Report
 
-This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Datathon August 14-15, 2025.
+This report is the result of a team effort to enhance space situational awareness (SSA) using open data during the Women in Data Space Aware Datathon August 14-September 15, 2025. We conducted an analysis of satellites and debris in Low Earth Orbit (LEO) using data from the Unified Data Library (UDL) Elset, CelesTrak and SatCat. By combining multiple open datasets, we provide a clearer picture of the orbital environment, highlight altitude hotspots, quantify debris risks, and assess the growing role of Starlink satellites.
+
 
 ## Contributors
 **Veronica Luisana Polk:** Data analyst with a background and masters in Agribusiness
@@ -8,6 +9,57 @@ This report is the result of a team effort to enhance space situational awarenes
 **Shruthi Bhaskaran MK:** Data analyst with years of contribution to the education sector
 
 **Favour "Nimi" Adebayo:** Data analyst using analytics and allied ML in the defence industry
+
+---
+
+## 🎯 Objectives
+- Identify altitude ranges and inclination bands with the highest congestion in LEO.
+- Quantify the presence of debris vs active satellites.
+- Compare Starlink vs non-Starlink satellites and their overlap with debris.
+- Flag satellites at decay risk (perigee < 300 km).
+- Provide insights for space traffic management and orbital safety.
+
+---
+
+## 🗂️ Data Sources
+* Unified Data Library (UDL) – Elset data (via authenticated API)
+* CelesTrak SatCat – Satellite catalog (OBJECT_TYPE, OWNER, etc.)
+* CelesTrak Starlink TLEs – List of Starlink satellites for tagging
+
+These datasets were merged into a unified analysis frame, ensuring active satellites, payloads, and debris are all captured.
+
+---
+
+## 🛠️ Methodology & Tools 
+- Python for analysis and visualization
+- Pandas / NumPy for data cleaning & aggregation
+- Matplotlib / Seaborn for visualizations
+- Requests for pulling UDL and CelesTrak data
+- EDA artifacts: schema checks, missingness, numeric summaries, sample rows
+
+### Workflow
+1. Fetch raw UDL data via API → normalize JSON
+2. Perform data cleaning & validation (missing values, duplicates, schema)
+3. Merge with SatCat metadata to classify debris vs payloads
+4. Tag Starlink satellites using CelesTrak TLEs
+5. Analyze altitude hotspots, RAAN–inclination planes, debris overlap, decay-risk candidates and growth trend
+
+---
+
+## 📊 Key Findings
+**LEO Congestion Hotspots:** Most satellites cluster around ~500–600 km and ~1100–1200 km.
+
+**Debris Load:** 26% of LEO objects are debris, with hotspots overlapping with active payloads.
+
+**Starlink Impact:** Starlink dominates the 53° inclination band, significantly contributing to congestion.
+
+**Decay Risk:** Hundreds of satellites are below 300 km perigee, indicating likely re-entry in the near term.
+
+**Overlap Zones:** Certain altitude bands contain Starlink, non-Starlink, and debris together, raising collision risks 
+
+LEO satellites are growing at ~28% CAGR, projected to exceed 45,000 by 2030 — raising risks of congestion and collisions
+
+---
 
 ## Terminology
 
@@ -18,7 +70,6 @@ This report is the result of a team effort to enhance space situational awarenes
 * **GEO (Geostationary Orbit):** \~35,786 km; appears fixed over Earth (comms, weather).
 * **HEO (Highly Elliptical Orbit):** Stretched, high apogee (military, weather).
 
----
 
 ### 2. Common Data Types
 
@@ -28,7 +79,6 @@ This report is the result of a team effort to enhance space situational awarenes
 * **Elset (Element Set):** Same idea as TLE, sometimes extended or from different sources.
 * **SGI (Spacecraft Geolocation Info):** Logs of tracking/telemetry data.
 
----
 
 ### 3. Key Orbital Parameters (from TLEs)
 
@@ -40,7 +90,6 @@ This report is the result of a team effort to enhance space situational awarenes
 * **Mean Motion (n):** Number of orbits per day.
 * **Epoch:** Reference time for orbital data validity.
 
----
 
 ### 4. Core Concepts
 
@@ -50,7 +99,6 @@ This report is the result of a team effort to enhance space situational awarenes
 * **Space Debris:** Non-functional objects (spent satellites, rocket parts, fragments).
 * **Orbital Decay:** Gradual lowering of a satellite’s orbit due to drag.
 
----
 
 ### 5. Tools & Libraries
 
@@ -62,9 +110,8 @@ This report is the result of a team effort to enhance space situational awarenes
   * `astropy` → astronomy/time utilities.
 * **Visualization:** `matplotlib`, `plotly`, CesiumJS (3D orbits).
 
----
 
-### 6. Jargon Made Simple
+### 6. Space Jargon Made Simple
 
 * **Catalog Number / NORAD ID:** Unique ID for each tracked object.
 * **UDL (Unified Data Library):** Repository of satellite + orbit data.
